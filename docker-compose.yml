@@ -1,0 +1,16 @@
+# docker-compose.yml to generate ubuntu 
+# it needs 'Dockerfile'
+# usage: 
+# 1. $docker compoes up -d
+# 2. $docker exec -it TestEnvForC /bin/bash
+
+version: '3'
+services:
+  myapp:
+    container_name: "TestEnvForC"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/app
+    tty: true
