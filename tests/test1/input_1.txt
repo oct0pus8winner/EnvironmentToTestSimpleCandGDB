@@ -1,0 +1,2 @@
+tests/test1/text_1.txt
+hoge

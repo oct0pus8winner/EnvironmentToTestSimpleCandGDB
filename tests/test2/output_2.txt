@@ -1,0 +1,1 @@
+Enter filename: Enter the word to count: Frequency of "1": 0.1111
