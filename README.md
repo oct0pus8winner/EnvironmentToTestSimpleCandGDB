@@ -33,3 +33,24 @@ $docker exec -it TestEnvForC /bin/bash
 ```
 
 it will be done.
+
+# How to run test.sh
+
+prepare your code written in C.
+
+- input
+  - 1st input: file path
+  - 2nd input: term to count up in the 1st input file
+- output
+  - the frequency (float)
+
+run next commands in container
+
+```
+./test.sh
+```
+
+you can add original test file in tests folder as testi
+- inut_i.txt : file path and term
+- expected_i.txt : expect result
+- text_i.txt : file to read
