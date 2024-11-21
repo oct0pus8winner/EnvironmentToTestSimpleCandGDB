@@ -36,9 +36,6 @@ it will be done.
 
 # How to run test.sh
 
-
-# How to run test.sh
-
 prepare your code written in C.
 
 - input
