@@ -64,8 +64,8 @@ run like this.
 ```bash
 $ ./test.sh ./a.c
 test1
-input file: ./tests/test1/text_1.txt # a.c's 1st input, written in input_1.c
-count word: hoge # a.c's input, written in input_1.c
+input file: ./tests/test1/text_1.txt # a.c's 1st input, written in input_1.txt
+count word: hoge # a.c's input, written in input_1.txt
 frequency: 0.5 # as a.c's result
 
 0.5 # as expected result, written in expected_1.txt
